@@ -1260,4 +1260,5 @@ section .container {
 --------------------------------------------------------------*/
 .skill-th {
   text-align: center;
+  padding-right: 40px;
 }
