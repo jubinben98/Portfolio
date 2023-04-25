@@ -5,8 +5,6 @@
 * License: https://bootstrapmade.com/license/
 */
 
-document.body.style.zoom="75%"
-
 !(function($) {
   "use strict";
   // Nav Menu
