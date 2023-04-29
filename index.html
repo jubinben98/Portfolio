@@ -66,15 +66,15 @@
 </head>
 
 <body>
-
-  <div id="loading">
-    <img src="./assets/img/utils/my_memoji.png" alt="Loading..." />
-  </div>
-
-  <!-- End Google Tag Manager (noscript) -->
   <!-- ======= Header ======= --> 
   <header id="header" class="header-tops">
 
+    <!------- Loading Interface ---------->
+    <div id="loading" >
+      <img id="loading-image" src="./assets/img/utils/loading.gif" alt="Loading..." />
+    </div>
+
+    <!------- Main header ---------->
     <div class="container">
 
       <h1><a href="index.html">Jubin Ben</a></h1>
@@ -989,7 +989,7 @@
   <script>
     $(window).on('load', function () {
       $('#loading').hide();
-    }) 
+    })
   </script>
 
 </body>
