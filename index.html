@@ -57,6 +57,13 @@
     gtag('config', 'G-TCYLCCZLPT');
   </script>
 
+  <!-- Loading Interface -->
+  <script>
+    $(window).on('load', function () {
+      $('#loading').hide();
+    }) 
+  </script>
+
   <!-- =======================================================
   * Template Name: Personal - v2.1.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -67,9 +74,10 @@
 
 <body>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MW3BVQ2" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
+  <div id="loading">
+    <img id="loading-image" src="./assets/img/utils/giphy.gif" alt="Loading..." />
+  </div>
+
   <!-- End Google Tag Manager (noscript) -->
   <!-- ======= Header ======= --> 
   <header id="header" class="header-tops">
@@ -93,8 +101,7 @@
       </nav><!-- .nav-menu -->
 
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/jubinben/" target="_blank" class="linkedin"><i
-            class="bx bxl-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/jubinben/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
         <a href="https://github.com/jubinben98" target="_blank" class="github"><i class="bx bxl-github"></i></a>
         <a href="mailto:jubinben@gmail.com" target="_blank" class="google"><i class="bx bx-mail-send"></i></a>
 
